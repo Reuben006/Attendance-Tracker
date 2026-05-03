@@ -1,3 +1,7 @@
+* {
+    box-sizing: border-box;
+}
+
 body {
   font-family: Arial;
   background: #f3f4f6;
@@ -34,21 +38,14 @@ body {
 
 .container {
   width: 700px;
-  max-width: 95%;
   margin: 40px auto;
   background: white;
   padding: 20px;
   border-radius: 10px;
-  text-align: center;
 }
 
 h1 {
   color: #222;
-}
-
-.desc {
-  color: #555;
-  margin: 15px 0 20px;
 }
 
 .divider {
@@ -78,7 +75,7 @@ details {
 summary {
   background: #f9fafb;
   padding: 14px 16px;
-  font-size: 0.92rem;
+  font-size: 0.9rem;
   font-weight: bold;
   color: #222;
   cursor: pointer;
@@ -87,10 +84,6 @@ summary {
   justify-content: space-between;
   align-items: center;
   transition: 0.2s;
-}
-
-summary::-webkit-details-marker {
-  display: none;
 }
 
 summary::after {

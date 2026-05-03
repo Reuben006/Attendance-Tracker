@@ -209,12 +209,10 @@ input[type="number"] {
     color: #16a34a;
 }
 
+
 .quick-actions-card {
     margin-top: 0;
     padding: 15px;
-    background: white;
-    border-radius: 8px;
-    box-shadow: 0 1px 3px rgba(0,0,0,0.1);
 }
 
 .quick-actions-title {
@@ -233,7 +231,6 @@ input[type="number"] {
 }
 
 .quick-action-btn {
-    font-family: Arial;
     display: flex;
     align-items: center;
     justify-content: center;
