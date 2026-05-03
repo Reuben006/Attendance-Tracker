@@ -1,19 +1,21 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Attendance Dashboard</title>
     <link rel="stylesheet" href="index.css">
 </head>
 <body>
     <div class="navbar">
-    <a href="index.html"  class="active">Home</a>
-    <a href="attendance.html">Attendance</a>
-    <a href="edit.html" >Edit</a>
-    <a href="stats.html">Stats</a>
-    <a href="timetable.html">Timetable</a>
-    <a href="bunk.html">Bunk</a>
-    <a href="setting.html">Settings</a>
-</div>
+        <a href="index.html" class="active">Home</a>
+        <a href="attendance.html">Attendance</a>
+        <a href="edit.html">Edit</a>
+        <a href="stats.html">Stats</a>
+        <a href="timetable.html">Timetable</a>
+        <a href="bunk.html">Bunk</a>
+        <a href="setting.html">Settings</a>
+    </div>
 
     <div class="container">
         <h1>Dashboard</h1>
@@ -30,7 +32,7 @@
                         <button class="save-btn" onclick="toggleEdit()">Edit</button>
                     </div>
 
-                   
+                    
                     <div class="edit-box" id="editBox">
                         <div class="title">Edit Profile</div>
                         
@@ -75,6 +77,19 @@
                 <div class="card">
                     <div class="title" id="day">Today</div>
                     <div class="info-line" id="todayLec">No lectures</div>
+                </div>
+
+                
+                <div class="card quick-actions-card">
+                    <div class="quick-actions-title">Quick Actions</div>
+                    <div class="quick-actions-grid">
+                        <a href="attendance.html" class="quick-action-btn">Mark Attendance</a>
+                        <a href="edit.html" class="quick-action-btn">Edit Attendance</a>
+                        <a href="timetable.html" class="quick-action-btn">Set Timetable</a>
+                        <a href="stats.html" class="quick-action-btn">Stats</a>
+                        <a href="bunk.html" class="quick-action-btn">Bunk</a>
+                        <a href="setting.html" class="quick-action-btn">Settings</a>
+                    </div>
                 </div>
             </div>
 
