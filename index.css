@@ -231,6 +231,7 @@ input[type="number"] {
 }
 
 .quick-action-btn {
+    font-family: Arial;
     display: flex;
     align-items: center;
     justify-content: center;
