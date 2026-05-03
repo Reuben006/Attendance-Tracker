@@ -1,0 +1,92 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <title>Attendance Dashboard</title>
+    <link rel="stylesheet" href="index.css">
+</head>
+<body>
+    <div class="navbar">
+    <a href="index.html"  class="active">Home</a>
+    <a href="attendance.html">Attendance</a>
+    <a href="edit.html" >Edit</a>
+    <a href="stats.html">Stats</a>
+    <a href="timetable.html">Timetable</a>
+    <a href="bunk.html">Bunk</a>
+    <a href="setting.html">Settings</a>
+</div>
+
+    <div class="container">
+        <h1>Dashboard</h1>
+
+        <div class="main-grid">
+            <div class="left-section">
+                <div class="card">
+                    <div class="prof-head">
+                        <div class="prof-info">
+                            <div id="nm">User</div>
+                            <div class="info-line" id="roll">Roll: N/A</div>
+                            <div class="info-line" id="email">N/A</div>
+                        </div>
+                        <button class="save-btn" onclick="toggleEdit()">Edit</button>
+                    </div>
+
+                   
+                    <div class="edit-box" id="editBox">
+                        <div class="title">Edit Profile</div>
+                        
+                        <div class="form-group">
+                            <label>Name</label>
+                            <input type="text" id="nameInp" placeholder="Enter name">
+                        </div>
+
+                        <div class="form-group">
+                            <label>Roll Number</label>
+                            <input type="text" id="rollInp" placeholder="Enter roll number">
+                        </div>
+
+                        <div class="form-group">
+                            <label>Email</label>
+                            <input type="email" id="emailInp" placeholder="Enter email">
+                        </div>
+
+                        <div class="form-group">
+                            <label>Attendance Threshold (%)</label>
+                            <input type="number" id="threshInp" min="0" max="100" placeholder="Enter threshold">
+                        </div>
+
+                        <button class="btn" onclick="saveProf()">Save</button>
+                    </div>
+                </div>
+
+                <div class="stat-grid">
+                    <div class="card">
+                        <div class="title">Overall Attendance</div>
+                        <div class="big" id="total">0%</div>
+                        <div class="info-line" id="totalDetail">No data</div>
+                    </div>
+
+                    <div class="card">
+                        <div class="title">Weekly Summary</div>
+                        <div class="big" id="weekly">--</div>
+                        <div class="info-line" id="weeklyDetail">No data</div>
+                    </div>
+                </div>
+
+                <div class="card">
+                    <div class="title" id="day">Today</div>
+                    <div class="info-line" id="todayLec">No lectures</div>
+                </div>
+            </div>
+
+            <div class="right-section">
+                <div class="card">
+                    <div class="title">Alerts</div>
+                    <div id="alerts">Loading...</div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <script src="index.js"></script>
+</body>
+</html>

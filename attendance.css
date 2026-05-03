@@ -1,0 +1,159 @@
+body {
+    font-family: Arial;
+    background: #f3f4f6;
+    margin: 0;
+}
+
+.container {
+    width: 700px;
+    max-width: 95%;
+    margin: 40px auto; 
+    padding: 20px;
+    background: white;
+    border-radius: 10px;
+}
+
+.navbar {
+    background: #333;
+    padding: 10px;
+    display: flex;
+    justify-content: center;
+    gap: 10px;
+    flex-wrap: wrap;
+}
+
+.navbar a {
+    text-decoration: none;
+    color: white;
+    padding: 6px 14px;
+    border-radius: 6px;
+    font-size: 14px;
+    transition: 0.2s;
+}
+
+.navbar a:hover {
+    background: #555;
+}
+
+.navbar a.active {
+    background: white;
+    color: #333;
+    font-weight: bold;
+}
+
+
+h2, #date {
+    text-align: center;
+}
+
+table {
+    width: 100%;
+    border-collapse: collapse;
+    margin-top: 10px;
+}
+
+th, td {
+    border: 1px solid #ddd;
+    padding: 10px;
+    text-align: center;
+}
+
+th {
+    background: #333;
+    color: white;
+}
+
+.btn-option {
+    padding: 6px 10px;
+    border-radius: 5px;
+    cursor: pointer;
+    border: 1px solid;
+    background: white;
+    font-weight: bold;
+    transition: 0.2s;
+}
+
+.present { color: green; border-color: green; }
+.absent { color: red; border-color: red; }
+.holiday { color: orange; border-color: orange; }
+
+.present:hover { background: #e8f7ec; }
+.absent:hover { background: #fdecec; }
+.holiday:hover { background: #fff4e5; }
+
+.btn-option.active {
+    color: white;
+}
+
+.present.active { background: green; }
+.absent.active { background: red; }
+.holiday.active { background: orange; }
+
+.btn-option:active {
+    transform: scale(0.96);
+}
+
+.quick-actions {
+    display: flex;
+    gap: 8px;
+    margin-bottom: 10px;
+}
+
+.quick-btn {
+    flex: 1;
+    padding: 8px;
+    border-radius: 5px;
+    border: 1px solid #ccc;
+    background: white;
+    cursor: pointer;
+    transition: 0.2s;
+}
+
+.quick-btn:hover {
+    background: #f1f1f1;
+}
+
+.quick-btn:active {
+    transform: scale(0.97);
+}
+
+#save {
+    width: 100%;
+    padding: 10px;
+    margin-top: 15px;
+    border: none;
+    background: #ff914d;
+    color: white;
+    border-radius: 6px;
+    cursor: pointer;
+    transition: 0.2s;
+}
+
+#save:hover {
+    opacity: 0.9;
+}
+
+#save:active {
+    transform: scale(0.97);
+}   
+
+#summary {
+    text-align: center;
+    margin-top: 15px;
+}
+
+#summary span {
+    margin: 0 12px;   
+    font-weight: bold;
+    font-size: 16px;
+}
+
+.p { color: green; }
+.a { color: red; }
+.h { color: orange; }
+
+#date {
+    display: block;
+    margin: 15px auto;
+    padding: 8px;
+}
