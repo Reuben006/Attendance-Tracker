@@ -31,6 +31,10 @@ function saveProf(){
         alert("Fill all fields");
         return;
     }
+    if (!email.includes("@") || !email.includes(".")) {
+    alert("Invalid email");
+    return;
+    }
     const obj={
         name:name,
         roll:roll,
