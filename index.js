@@ -5,8 +5,8 @@ const editBox = document.getElementById("editBox");
 
 function loadUser(){
     document.getElementById("nm").innerText=usr.name || "User";
-    document.getElementById("roll").innerText="Roll: " + (usr.roll || "N/A");
-    document.getElementById("email").innerText=usr.email || "N/A";
+    document.getElementById("roll").innerText="Roll No: " + (usr.roll || "N/A");
+    document.getElementById("email").innerText="Email Id: " + (usr.email || "N/A");
 }
 loadUser();
 
