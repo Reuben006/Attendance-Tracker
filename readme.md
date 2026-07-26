@@ -1,32 +1,44 @@
 # 📚 Attendance Tracker
 
-### Smart, lightweight attendance management for students.
+> **A lightweight attendance management system that helps students track lectures, monitor attendance, analyze subject-wise statistics, plan safe bunks, and manage weekly timetables — all directly in the browser.**
 
-Track attendance, analyze subject-wise statistics, plan safe bunks, manage timetables, and securely back up your data — all from a single web application.
+<p align="center">
+
+[🌐 Live Demo](https://v1haan24.github.io/Attendance-Tracker/) •
+[📂 Repository](https://github.com/v1haan24/Attendance-Tracker)
+
+</p>
 
 ---
 
 ## ✨ Features
 
-- 📊 Dashboard with attendance overview
+- 📊 Interactive dashboard with attendance overview
 - ✅ Daily attendance marking
-- ✏️ Edit previously marked attendance
-- 📈 Subject-wise attendance statistics
+- ✏️ Edit previously recorded attendance
+- 📈 Subject-wise attendance analytics
 - 📅 Weekly timetable management
-- 🧮 Bunk calculator
+- 🧮 Smart bunk calculator
 - 👤 User profile management
-- ⚠️ Attendance alerts below threshold
+- ⚠️ Automatic low-attendance alerts
 - 💾 Import / Export attendance data
+- 💻 Browser-based persistence using LocalStorage
 - ❓ Built-in FAQ page
 
 ---
-## 📸 Preview
+
+# 📸 Preview
 
 <p align="center">
   <img src="assets/images/index.png" alt="Dashboard" width="90%">
 </p>
 
+<p align="center">
+<b>Dashboard Overview</b>
+</p>
+
 <details>
+
 <summary><b>📷 View All Screenshots</b></summary>
 
 <br>
@@ -34,160 +46,151 @@ Track attendance, analyze subject-wise statistics, plan safe bunks, manage timet
 ### Attendance
 
 <p align="center">
-  <img src="assets/images/attendance.png" width="85%">
+<img src="assets/images/attendance.png" width="85%">
 </p>
+
+---
 
 ### Edit Attendance
 
 <p align="center">
-  <img src="assets/images/edit.png" width="85%">
+<img src="assets/images/edit.png" width="85%">
 </p>
+
+---
 
 ### Statistics
 
 <p align="center">
-  <img src="assets/images/stats.png" width="85%">
+<img src="assets/images/stats.png" width="85%">
 </p>
+
+---
 
 ### Timetable
 
 <p align="center">
-  <img src="assets/images/timetable.png" width="85%">
+<img src="assets/images/timetable.png" width="85%">
 </p>
+
+---
 
 ### Bunk Calculator
 
 <p align="center">
-  <img src="assets/images/bunk.png" width="85%">
+<img src="assets/images/bunk.png" width="85%">
 </p>
+
+---
 
 ### Settings
 
 <p align="center">
-  <img src="assets/images/settings.png" width="85%">
+<img src="assets/images/settings.png" width="85%">
 </p>
 
 </details>
+
 ---
 
-## 🚀 Tech Stack
+# 🚀 Live Demo
 
-- HTML
-- CSS
-- JavaScript
+Try the application here:
+
+**👉 https://v1haan24.github.io/Attendance-Tracker/**
+
+---
+
+# 🛠 Tech Stack
+
+- HTML5
+- CSS3
+- JavaScript (ES6)
 - Browser LocalStorage
 
 ---
 
-## 📂 Project Structure
+# 📂 Project Structure
 
-```plaintext
+```text
 Attendance-Tracker/
 │
 ├── assets/
-│
 ├── css/
-│   ├── about.css
-│   ├── attendance.css
-│   ├── bunk.css
-│   ├── faq.css
-│   ├── index.css
-│   ├── setting.css
-│   ├── stats.css
-│   └── timetable.css
-│
 ├── js/
-│   ├── attendance.js
-│   ├── bunk.js
-│   ├── edit.js
-│   ├── index.js
-│   ├── setting.js
-│   ├── stats.js
-│   └── timetable.js
-│
 ├── pages/
-│   ├── about.html
-│   ├── attendance.html
-│   ├── bunk.html
-│   ├── edit.html
-│   ├── faq.html
-│   ├── setting.html
-│   ├── stats.html
-│   └── timetable.html
-│
-└── index.html
+├── index.html
+└── README.md
 ```
 
 ---
 
-## 🎯 Key Features
+# 🌟 Main Modules
 
 ### 🏠 Dashboard
 
 - Overall attendance percentage
 - Weekly attendance summary
-- Today's scheduled lectures
+- Today's lectures
 - Attendance alerts
-- Quick navigation shortcuts
+- Quick action shortcuts
 
 ### ✅ Attendance
 
-- Mark attendance as Present, Absent, or Holiday
-- One-click **All Present**
-- One-click **All Absent**
-- Quick daily attendance tracking
+- Mark lectures as Present, Absent, or Holiday
+- One-click "All Present"
+- One-click "All Absent"
 
 ### ✏️ Edit Attendance
 
-- Modify previously saved attendance records
-- Select any date to update attendance
-- Automatically refreshes attendance statistics
+- Update attendance for previous dates
+- Automatically refresh statistics
 
 ### 📊 Statistics
 
 - Subject-wise attendance percentages
 - Overall attendance summary
-- Low attendance detection
-- Performance overview
+- Attendance status indicators
 
 ### 📅 Timetable
 
-- Configure weekly lecture schedule
-- Automatic subject loading based on the current day
-- Easy timetable management
+- Configure weekly lecture schedules
+- Automatically display today's timetable
 
 ### 🧮 Bunk Calculator
 
-- Calculate safe bunk limits
-- Set your desired attendance percentage
-- Plan future absences intelligently
+- Calculate safe bunks
+- Plan future attendance based on a target percentage
 
 ### ⚙️ Settings
 
 - Export attendance data
 - Import saved data
 - Restore previous backup
+
 ---
 
-## 💾 Data Storage
+# 💾 Data Storage
 
-This project uses the browser's **LocalStorage** to persist:
+The application stores data locally in the browser using **LocalStorage**.
 
-- Attendance records
-- User profile
-- Timetable
-- Settings
+Stored information includes:
+
+- User Profile
+- Attendance Records
+- Weekly Timetable
+- User Preferences
 
 No backend or database is required.
 
 ---
 
-## ▶️ Getting Started
+# ▶️ Getting Started
 
 Clone the repository
 
 ```bash
-git clone https://github.com/YOUR_USERNAME/Attendance-Tracker.git
+git clone https://github.com/v1haan24/Attendance-Tracker.git
 ```
 
 Open
@@ -196,23 +199,27 @@ Open
 index.html
 ```
 
-in your browser.
+in your preferred browser.
 
-No installation required.
-
----
-
-## 🔮 Future Improvements
-
-- Dark Mode
-- Charts & Graphs
-- Firebase Sync
-- Mobile Responsive UI
-- Notifications
-- Progressive Web App (PWA)
+No installation or dependencies are required.
 
 ---
 
-## 👨‍💻 Author
+# 🔮 Future Improvements
 
-- Vihaan Jain
+- 🌙 Dark Mode
+- 📱 Fully Responsive Design
+- 📊 Interactive Charts
+- ☁️ Cloud Synchronization
+- 🔔 Attendance Notifications
+- 📅 Calendar View
+- 📈 Attendance Prediction
+- 📦 Progressive Web App (PWA)
+
+---
+
+# 👨‍💻 Author
+
+**Vihaan Jain**
+
+If you found this project useful, consider ⭐ starring the repository.
