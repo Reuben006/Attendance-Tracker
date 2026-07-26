@@ -1,0 +1,89 @@
+body {
+    font-family: Arial;
+    background: #f3f4f6;
+    margin: 0;
+}
+
+.navbar {
+    background: #333;
+    padding: 10px;
+    display: flex;
+    justify-content: center;
+    gap: 10px;
+    flex-wrap: wrap;
+}
+
+.navbar a {
+    text-decoration: none;
+    color: white;
+    padding: 6px 14px;
+    border-radius: 6px;
+    font-size: 14px;
+    transition: 0.2s;
+}
+
+.navbar a:hover {
+    background: #555;
+}
+
+.navbar a.active {
+    background: white;
+    color: #333;
+    font-weight: bold;
+}
+
+.container {
+    width: 600px;
+    max-width: 90%;
+    margin: 40px auto;
+    background: white;
+    padding: 20px;
+    border-radius: 8px;
+    text-align: center;
+}
+
+h1 {
+    margin-bottom: 20px;
+}
+
+input,
+select {
+    width: 90%;
+    max-width: 100%;
+    padding: 10px;
+    margin-top: 10px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+}
+
+.btn {
+    width: 100%;
+    padding: 10px;
+    margin-top: 15px;
+    background: #ff914d;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+.btn:hover {
+    opacity: 0.9;
+}
+
+.result {
+    margin-top: 20px;
+    padding: 12px;
+    background: #f1f1f1;
+    border-radius: 6px;
+}
+
+.good {
+    color: green;
+    font-weight: bold;
+}
+
+.bad {
+    color: red;
+    font-weight: bold;
+}

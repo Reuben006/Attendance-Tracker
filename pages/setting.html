@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Settings</title>
+    <link rel="stylesheet" href="../css/setting.css">
+    </head>
+
+<body>
+
+<div class="navbar">
+    <a href="../index.html">Home</a>
+    <a href="attendance.html">Attendance</a>
+    <a href="edit.html">Edit</a>
+    <a href="stats.html">Stats</a>
+    <a href="timetable.html">Timetable</a>
+    <a href="bunk.html">Bunk</a>
+    <a href="setting.html" class="active">Settings</a>
+    <a href="faq.html">FAQ</a>
+    <a href="about.html">About Us</a>
+</div>
+
+<div class="container">
+
+<h1>Settings</h1>
+
+<div class="section">
+    <h3>Export Data</h3>
+    <textarea id="exportb"></textarea>
+    <button class="btn expbtn">Copy Data</button>
+</div>
+
+<div class="section">
+    <h3>Import Data</h3>
+    <textarea id="importb" placeholder="Paste your JSON here..."></textarea>
+    <button class="btn impbtn">Load Data</button>
+</div>
+
+<button class="btn resbtn">Restore Previous Data</button>
+
+</div>
+
+<script src="../js/setting.js"></script>
+
+</body>
+</html>
