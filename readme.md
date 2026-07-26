@@ -20,62 +20,54 @@ Track attendance, analyze subject-wise statistics, plan safe bunks, manage timet
 - ❓ Built-in FAQ page
 
 ---
-## 📸 Screenshots
-
-### 🏠 Dashboard
+## 📸 Preview
 
 <p align="center">
-  <img src="assets/images/index.png" width="900">
+  <img src="assets/images/index.png" alt="Dashboard" width="90%">
 </p>
 
----
+<details>
+<summary><b>📷 View All Screenshots</b></summary>
 
-### ✅ Attendance
+<br>
+
+### Attendance
 
 <p align="center">
-  <img src="assets/images/attendance.png" width="900">
+  <img src="assets/images/attendance.png" width="85%">
 </p>
 
----
-
-### ✏️ Edit Attendance
+### Edit Attendance
 
 <p align="center">
-  <img src="assets/images/edit.png" width="900">
+  <img src="assets/images/edit.png" width="85%">
 </p>
 
----
-
-### 📊 Statistics
+### Statistics
 
 <p align="center">
-  <img src="assets/images/stats.png" width="900">
+  <img src="assets/images/stats.png" width="85%">
 </p>
 
----
-
-### 📅 Timetable
+### Timetable
 
 <p align="center">
-  <img src="assets/images/timetable.png" width="900">
+  <img src="assets/images/timetable.png" width="85%">
 </p>
 
----
-
-### 🧮 Bunk Calculator
+### Bunk Calculator
 
 <p align="center">
-  <img src="assets/images/bunk.png" width="900">
+  <img src="assets/images/bunk.png" width="85%">
 </p>
 
----
-
-### ⚙️ Settings
+### Settings
 
 <p align="center">
-  <img src="assets/images/settings.png" width="900">
+  <img src="assets/images/settings.png" width="85%">
 </p>
 
+</details>
 ---
 
 ## 🚀 Tech Stack
